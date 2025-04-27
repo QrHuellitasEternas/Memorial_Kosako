@@ -279,3 +279,10 @@ footer {
 /* Nota: Si algún elemento ya tenía una propiedad 'animation', esta la reemplazará.
    Si quieres animar elementos más específicos (ej: solo el H2 de la galería),
    necesitarás usar selectores más precisos. */
+p.intro-text {
+  text-align: center; /* Esto centra el texto dentro del párrafo */
+  margin-top: 20px;   /* Opcional: añade espacio arriba */
+  margin-bottom: 30px;/* Opcional: añade espacio abajo, antes de la foto */
+  font-size: 1.1em;   /* Opcional: hazlo un poco más grande */
+  color: #333;       /* Opcional: un color de texto ligeramente diferente */
+}

@@ -3,60 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>En Memoria de Kosako - Nuestro Eterno Sol Dorado</title>
+    <title>En Memoria de Kosako - Un Amigo Inolvidable</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700,900&family=Poppins:wght@300,400,600,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style_kosako.css"> </head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_kosako_wow.css"> 
+</head>
 <body>
-
-    <header class="hero-memorial">
-        <div class="hero-memorial-overlay"></div>
-        <div class="hero-memorial-content">
-            <img src="images/perro_principal.jpg" alt="Kosako, nuestro sol dorado" class="hero-memorial-image">
+    <header class="memorial-header">
+        <div class="header-content">
+            <p class="header-dates">2011 - 2025</p>
             <h1>Kosako</h1>
-            <p class="hero-subtitle">Siempre en Nuestros Corazones (2011 - 2025)</p>
+            <p class="header-subtitle">Siempre en Nuestros Corazones, Amigo Fiel</p>
         </div>
     </header>
 
-    <main class="memorial-container">
+    <main class="memorial-main-content">
+        
         <section class="intro-section">
-            <p class="intro-text">Este es un rincón digital lleno de amor, dedicado a celebrar la maravillosa vida de Kosako, nuestro Golden Retriever, un ser de luz que iluminó cada uno de nuestros días con su alegría infinita y su lealtad incondicional. Aquí atesoramos los momentos que nos regaló, su espíritu juguetón y el eco eterno de sus patitas.</p>
+            <p class="intro-text">Este es un rincón sagrado, tejido con hilos de amor y recuerdos imborrables, dedicado a celebrar la vida luminosa de <strong>Kosako</strong>. Un Golden Retriever excepcional, un torbellino de alegría dorada que llenó nuestros días de sol, juegos y una lealtad que trasciende el tiempo. Aquí, su espíritu libre y su amor incondicional perduran.</p>
+        </section>
+
+        <section class="main-photo-section">
+            <div class="foto-principal-contenedor">
+                <img id="foto-principal" src="images/perro_principal.jpg" alt="Recuerdo radiante de Kosako"> 
+                <p class="caption-principal">Nuestro querido Kosako, luz de nuestras vidas.</p> 
+            </div>
         </section>
 
         <section class="gallery-section">
-            <h2>Momentos Dorados con Kosako</h2>
-            <div class="gallery-grid">
-                <figure class="gallery-item">
-                    <img src="images/perro_cachorro.jpg" alt="Kosako de cachorro, pura ternura">
-                    <figcaption>Pura ternura de cachorro</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="images/perro_jugando.jpg" alt="Kosako radiante jugando en la playa">
-                    <figcaption>Alegría en la playa</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="images/perro_durmiendo.jpg" alt="Kosako en una de sus dulces siestas">
-                    <figcaption>Dulces sueños</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="images/perro_paseo.jpg" alt="Kosako feliz disfrutando de un paseo">
-                    <figcaption>Aventuras al aire libre</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="images/perro_con_familia.jpg" alt="Kosako, el corazón de la familia">
-                    <figcaption>El corazón de la familia</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="images/perro_mirada.jpg" alt="La mirada tierna y sabia de Kosako">
-                    <figcaption>Su mirada inolvidable</figcaption>
-                </figure>
-                 </div>
+            <h2>Momentos Inolvidables que Atesoramos</h2>
+            <div class="galeria-contenedor">
+                <div class="foto-galeria">
+                    <img src="images/perro_cachorro.jpg" alt="Kosako de cachorro, pura ternura"> 
+                    <p>De cachorro, conquistando corazones</p>
+                </div>
+                <div class="foto-galeria">
+                    <img src="images/perro_jugando.jpg" alt="Kosako en plena diversión en la playa"> 
+                    <p>Alegría desbordante en la playa</p> 
+                </div>
+                <div class="foto-galeria">
+                    <img src="images/perro_durmiendo.jpg" alt="Kosako en uno de sus sueños dorados"> 
+                    <p>Sus siestas, un poema de paz</p>
+                </div>
+                <div class="foto-galeria">
+                    <img src="images/perro_paseo.jpg" alt="Kosako explorando el mundo en un paseo"> 
+                    <p>Aventurero de corazón</p>
+                </div>
+                <div class="foto-galeria">
+                    <img src="images/perro_con_familia.jpg" alt="Kosako, el alma de la familia"> 
+                    <p>Siempre parte de la familia</p>
+                </div>
+                <div class="foto-galeria">
+                    <img src="images/perro_mirada.jpg" alt="La mirada profunda y cariñosa de Kosako"> 
+                    <p>Esa mirada que lo decía todo</p>
+                </div>
+            </div>
         </section>
 
-        <section class="poem-section">
-            <h2>Un Poema Desde el Corazón</h2>
-            <div class="poem-content">
+        <section id="poema-contenedor" class="poem-section">
+            <h2>Un Poema a tu Alma Noble, Kosako</h2> 
+            <div class="poema-texto">
                 <pre>
 A ti, Kosako, nuestro Golden leal,
 catorce años de amor sin igual.
@@ -72,36 +79,27 @@ Nostalgia profunda, vacío que queda,
 ¡No habrá otro perro como tú, leyenda!
 Aunque hoy el silencio parezca ganar,
 en nuestros corazones siempre has de estar.
-                </pre>
+                </pre> 
             </div>
         </section>
 
-        <section class="video-section">
-            <h2>Reviviendo su Alegría</h2>
-            <p class="video-intro">Un pequeño homenaje en video para recordar sus momentos más divertidos y especiales.</p>
+        <section class="videos-contenedor">
+            <h2>Reviviendo su Alegría Contagiosa</h2>
             <div class="video-wrapper">
-                <iframe 
-                    src="https://www.youtube.com/embed/TU_ID_DE_TU_VIDEO" 
-                    title="Video Homenaje a Kosako" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
-                </iframe>
+                <iframe src="https://www.youtube.com/embed/t8yeIMoZihw?si=XoXM1orYHLrrWnCe" title="Video Homenaje a Kosako" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
 
-        <section class="final-tribute">
-            <h2>Gracias por Tanto Amor, Kosako</h2>
-            <p>Tu paso por nuestras vidas fue un regalo inmenso. Cada recuerdo, cada ladrido de felicidad, cada gesto de cariño, vivirá por siempre en nosotros. Te extrañamos y te amamos infinitamente.</p>
-            </section>
+        <section class="final-message">
+            <p>Kosako, tu luz dorada sigue y seguirá brillando en cada rincón de nuestros recuerdos. Gracias por cada lametón, cada carrera feliz, cada momento de puro amor. Te extrañamos hoy y siempre.</p>
+        </section>
+
     </main>
 
     <footer class="memorial-footer">
-        <p>Kosako: Un sol que nunca dejará de brillar en nuestros recuerdos.</p>
-        <p>&copy; <span id="year"></span> Homenaje creado con amor.</p>
+        <p>Un homenaje eterno para nuestro amigo Kosako.</p> 
+        <p>&copy; <span id="year"></span> QrHuellitasEternas. Con todo nuestro amor.</p>
     </footer>
-
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
